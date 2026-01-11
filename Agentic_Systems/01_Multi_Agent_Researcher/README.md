@@ -1,8 +1,5 @@
 ## 📰 Multi-Agent AI Researcher
 
-### 🎓 FREE Step-by-Step Tutorial 
-**👉 [Click here to follow our complete step-by-step tutorial](https://www.mustafabasar.me/p/build-a-multi-agent-llm-app-with-gpt-4o) and learn how to build this from scratch with detailed code walkthroughs, explanations, and best practices.**
-
 This Streamlit app empowers you to research top stories and users on HackerNews using a team of AI assistants with GPT-4o. 
 
 ### Features
