@@ -1,28 +1,29 @@
-# Mustafa Başar
+# Mustafa Başar: AI Solutions Architect
 
-I am an AI Solutions Architect focused on designing and implementing complex autonomous systems. This repository serves as a technical portfolio for advanced agentic architectures, specifically leveraging **LangGraph** for high-scale, production-ready workflows.
+I specialize in the design and implementation of production-grade autonomous systems. This repository is not just a collection of code, but a series of **Architectural Blueprints and Technical Case Studies** focused on high-scale agentic workflows using **LangGraph**.
 
-My work centers on the "Brain Layer" of AI applications: state management, multi-agent coordination, and human-in-the-loop (HITL) control systems revisualized through durable orchestration.
+My focus is on the "Brain Layer"—the orchestration logic that handles state, memory, and multi-agent coordination with engineering rigor and token efficiency.
 
-## Advanced Agentic Systems (LangGraph)
+## 🏗️ Technical Case Studies & Blueprints
 
-This collection represents deep-dive implementations of sophisticated agentic patterns. These are state-aware, multi-step orchestration layers designed for enterprise reliability.
+These blueprints provide a deep-dive into sophisticated agentic patterns. They cover the end-to-end logic required for state-aware, multi-step orchestration in enterprise environments.
 
 ### [Advanced Agentic Patterns](./Advanced_Agentic_Systems/)
 
-*   **[Autonomous Multi-Agent Orchestration](./Advanced_Agentic_Systems/Autonomous_Multi_Agent_Orchestration.ipynb)**: Orchestrating specialized worker agents through a central supervisor node.
-*   **[Context-Aware Dynamic Tool Routing](./Advanced_Agentic_Systems/Context_Aware_Dynamic_Tool_Routing.ipynb)**: Implementing real-time routing logic based on context and intent.
-*   **[Human-in-the-Loop Supervisor Control](./Advanced_Agentic_Systems/Human_in_the_Loop_Supervisor_Control.ipynb)**: Interruption patterns and state-modification hooks for safety-critical execution.
-*   **[Persistent Memory & Agentic State](./Advanced_Agentic_Systems/Persistent_Memory_Agentic_State.ipynb)**: Maintaining state across long-horizon tasks.
-*   **[Hierarchical Swarm Coordination](./Advanced_Agentic_Systems/Hierarchical_Swarm_Coordination.ipynb)**: Exploring coordination models for large-scale agent ecosystems.
-*   **[Adaptive HITL Safety Protocols](./Advanced_Agentic_Systems/Adaptive_HITL_Safety_Protocols.ipynb)**: Flexible human agency interfaces within automated workflows.
+*   **[Autonomous Multi-Agent Orchestration](./Advanced_Agentic_Systems/Autonomous_Multi_Agent_Orchestration.ipynb)**: Detailed blueprint for decomposing complex tasks via a central supervisor and specialized worker nodes.
+*   **[Context-Aware Dynamic Tool Routing](./Advanced_Agentic_Systems/Context_Aware_Dynamic_Tool_Routing.ipynb)**: A research-driven implementation of real-time tool selection based on latent context and user intent.
+*   **[Human-in-the-Loop (HITL) Supervisor Control](./Advanced_Agentic_Systems/Human_in_the_Loop_Supervisor_Control.ipynb)**: Case study on interruption patterns and safety-critical state modification hooks.
+*   **[Persistent Memory & Agentic State Management](./Advanced_Agentic_Systems/Persistent_Memory_Agentic_State.ipynb)**: Implementation of durable state persistence across long-horizon task execution.
+*   **[Hierarchical Swarm Coordination Models](./Advanced_Agentic_Systems/Hierarchical_Swarm_Coordination.ipynb)**: Comparative study of coordination models for large-scale decentralized agent ecosystems.
+*   **[Adaptive HITL Safety Protocols](./Advanced_Agentic_Systems/Adaptive_HITL_Safety_Protocols.ipynb)**: Framework for flexible human agency within complex automated systems.
 
-## Technical Focus
+## 🛠️ Core Engineering Principles
 
-1.  **Orchestration Rigor**: Using **LangGraph** to replace brittle chains with robust, cycle-aware state machines.
-2.  **Token Efficiency**: Minimizing operational costs through strategic tool usage and context window management.
-3.  **Human Alignment**: Implementing multi-level HITL nodes to ensure AI systems remain controllable and auditable.
+1.  **Orchestration Rigor**: Moving beyond simple chains to robust, cycle-aware state machines with LangGraph.
+2.  **Token Optimization**: Strategic context management to minimize operational costs while maximizing model performance.
+3.  **Governance & Safety**: Integrated multi-level HITL nodes to ensure AI systems are controllable, transparent, and auditable.
 
-## Contact
+## 📬 Contact
 
-Feel free to reach out via email at mustafabasar7@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/mustafabasar).
+- **Email**: [mustafabasar7@gmail.com](mailto:mustafabasar7@gmail.com)
+- **LinkedIn**: [linkedin.com/in/mustafabasar](https://www.linkedin.com/in/mustafabasar)
