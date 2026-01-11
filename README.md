@@ -1,33 +1,26 @@
-# Mustafa Başar: AI Solutions Architect | Portfolio
+# Mustafa Başar
 
-Welcome to my technical portfolio. This repository showcases a curated collection of AI systems, focusing on **Context Engineering**, **Adaptive RAG Architectures**, and **Autonomous Agentic Systems**.
+I am an AI Solutions Architect focused on the practical intersection of context engineering and autonomous systems. This repository is a collection of my work exploring how to make LLMs more efficient, grounded, and useful in real-world environments.
 
-These projects reflect a commitment to building token-efficient, cost-conscious, and production-ready AI solutions.
+My work here centers on managing the information lifecycle—how we retrieve data, how we prune it for token efficiency, and how we orchestrate specialized agents to handle complex tasks without losing focus.
 
-## 🚀 Categories
+## Projects
 
-### 🧠 Context Engineering & Adaptive RAG
-Optimizing the information lifecycle to maximize performance while minimizing latency and cost.
-*   **[Contextual AI RAG Agent](./Context_Engineering/01_Contextual_AI_RAG/)**: Advance managed RAG implementation with precise document mapping and context window utilization.
-*   **[Hybrid Search Optimizer](./Context_Engineering/02_Hybrid_Search_Optimizer/)**: Precision-weighted retrieval layer combining Dense and Sparse search.
-*   **[Corrective RAG (CRAG) Pipeline](./Context_Engineering/03_Corrective_RAG_Pipeline/)**: Self-reflective RAG architecture that validates context quality before generation.
+### Context Engineering and RAG
+I've spent a lot of time looking at how to optimize the retrieval process. The projects here cover everything from managed RAG implementations to self-correcting pipelines that validate their own context before generating a response.
 
-### 🤖 Autonomous Agentic Systems
-Engineering stateful, multi-agent frameworks for complex, long-horizon task execution.
-*   **[Autonomous Multi-Agent Researcher](./Agentic_Systems/01_Multi_Agent_Researcher/)**: A collaborative multi-agent framework where specialized agents orchestrate tasks via tool usage and peer verification.
-*   **[Specialized Agent Teams](./Agentic_Systems/02_Specialized_Agent_Teams/)**: A collection of domain-specific agent teams (SEO, Finance) demonstrating complex coordination and orchestration.
+* [Contextual AI RAG Agent](./Context_Engineering/01_Contextual_AI_RAG/): A practical implementation focused on document mapping and precise context utilization.
+* [Hybrid Search Optimizer](./Context_Engineering/02_Hybrid_Search_Optimizer/): A look at combining dense and sparse search to find the right balance for small language models.
+* [Corrective RAG Pipeline](./Context_Engineering/03_Corrective_RAG_Pipeline/): An architecture built to minimize hallucinations by validating context quality on the fly.
 
-## 🛠️ Technical Philosophy
+### Agentic Systems
+These projects explore multi-agent orchestration. Instead of one large model doing everything, these use specialized agents that coordinate to solve longer-horizon problems.
 
-My approach to AI engineering focuses on:
-- **Token Efficiency**: Implementing context pruning and prompt caching to reduce operational costs.
-- **Architectural Rigor**: Leveraging frameworks like **LangGraph** and **Temporal** for durable, stateful AI workflows.
-- **Contextual Alignment**: Ensuring retrieval and generation steps are grounded in information lifecycle best practices.
+* [Autonomous Multi-Agent Researcher](./Agentic_Systems/01_Multi_Agent_Researcher/): A framework where agents research, write, and review content through peer-to-peer verification.
+* [Specialized Agent Teams](./Agentic_Systems/02_Specialized_Agent_Teams/): Examples of how teams can be structured for domain-specific audits in SEO or Finance.
 
-## 📬 Connect
+## Core Interests
+I am particularly interested in token efficiency and architectural rigor. In production, every token matters for both cost and speed. I prefer using stateful workflows and durable orchestration layers to ensure AI systems are reliable and easy to audit.
 
-- **LinkedIn**: [linkedin.com/in/mustafabasar](https://www.linkedin.com/in/mustafabasar/)
-- **Email**: [mustafabasar7@gmail.com](mailto:mustafabasar7@gmail.com)
-
----
-*Bridging Strategy and Execution.*
+## Contact
+You can reach me via email at mustafabasar7@gmail.com or find me on [LinkedIn](https://www.linkedin.com/in/mustafabasar).
