@@ -6,6 +6,15 @@ My work here centers on managing the information lifecycle—how we retrieve dat
 
 ## Projects
 
+### Advanced Agentic Architectures (LangGraph)
+A collection of advanced patterns for multi-agent coordination, state management, and human-in-the-loop (HITL) control. These represent the "Brain Layer" of modern AI systems.
+
+* [Advanced LangGraph Patterns](./Agentic_Systems/03_Advanced_LangGraph_Patterns/): 
+    * **Dynamic Tool Selection**: Real-time selection of tools based on context and intent.
+    * **Multi-Agent Supervisor**: Orchestrating specialized agents through a central supervisor.
+    * **Human-in-the-Loop (HITL)**: Advanced interruption and state modification patterns for safe agent execution.
+    * **Long-term Memory**: Persistent state management across agent sessions.
+
 ### Context Engineering and RAG
 I've spent a lot of time looking at how to optimize the retrieval process. The projects here cover everything from managed RAG implementations to self-correcting pipelines that validate their own context before generating a response.
 
