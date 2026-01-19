@@ -25,5 +25,5 @@ These blueprints provide a deep-dive into sophisticated agentic patterns. They c
 
 ## 📬 Contact
 
-- **Email**: [mustafabasar7@gmail.com](mailto:mustafabasar7@gmail.com)
+- **Email**: [mustafabasar7@gmail.com](mailto:mustafa.r.basar7@gmail.com)
 - **LinkedIn**: [linkedin.com/in/mustafabasar](https://www.linkedin.com/in/mustafabasar)
