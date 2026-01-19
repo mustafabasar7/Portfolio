@@ -1,4 +1,4 @@
-# Mustafa Başar: AI Solutions Architect
+# Mustafa Başar: AI Solutions Engineer
 
 I specialize in the design and implementation of production-grade autonomous systems. This repository is not just a collection of code, but a series of **Architectural Blueprints and Technical Case Studies** focused on high-scale agentic workflows using **LangGraph**.
 
