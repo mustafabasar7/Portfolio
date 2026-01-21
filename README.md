@@ -12,7 +12,6 @@ These blueprints provide a deep-dive into sophisticated agentic patterns. They c
 
 *   **[Autonomous Multi-Agent Orchestration](./Advanced_Agentic_Systems/Autonomous_Multi_Agent_Orchestration.ipynb)**: Detailed blueprint for decomposing complex tasks via a central supervisor and specialized worker nodes.
 *   **[Context-Aware Dynamic Tool Routing](./Advanced_Agentic_Systems/Context_Aware_Dynamic_Tool_Routing.ipynb)**: A research-driven implementation of real-time tool selection based on latent context and user intent.
-*   **[Human-in-the-Loop (HITL) Supervisor Control](./Advanced_Agentic_Systems/Human_in_the_Loop_Supervisor_Control.ipynb)**: Case study on interruption patterns and safety-critical state modification hooks.
 *   **[Persistent Memory & Agentic State Management](./Advanced_Agentic_Systems/Persistent_Memory_Agentic_State.ipynb)**: Implementation of durable state persistence across long-horizon task execution.
 *   **[Hierarchical Swarm Coordination Models](./Advanced_Agentic_Systems/Hierarchical_Swarm_Coordination.ipynb)**: Comparative study of coordination models for large-scale decentralized agent ecosystems.
 *   **[Adaptive HITL Safety Protocols](./Advanced_Agentic_Systems/Adaptive_HITL_Safety_Protocols.ipynb)**: Framework for flexible human agency within complex automated systems.
