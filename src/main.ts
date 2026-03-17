@@ -1,4 +1,5 @@
 import './style.css'
+import { createIcons, Bot, Compass, Brain, Globe, ShieldCheck, Mail, Linkedin, Github, ArrowRight } from 'lucide'
 import { projects, principles } from './data/projects'
 
 // ─── THEME ────────────────────────────────────────────────────────────────────
@@ -42,17 +43,19 @@ grid.innerHTML = projects
     (p) => `
   <article class="project-card">
     <div class="flex items-center justify-center w-11 h-11 rounded-xl mb-4
-                bg-accent-blue/10 border border-light-border dark:border-dark-border
-                text-xl select-none" aria-hidden="true">${p.icon}</div>
+                bg-accent-blue/10 border border-light-border dark:border-dark-border">
+      <i data-lucide="${p.icon}" class="w-5 h-5 text-accent-blue" aria-hidden="true"></i>
+    </div>
     <h3 class="text-base font-semibold mb-2 leading-snug text-gray-900 dark:text-gray-100">${p.title}</h3>
     <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4">${p.description}</p>
     <div class="flex flex-wrap gap-1.5 mb-5">
       ${p.tags.map((t) => `<span class="tag">${t}</span>`).join('')}
     </div>
     <a href="${p.url}" target="_blank" rel="noopener"
-       class="inline-flex items-center gap-1 text-sm font-semibold text-accent-blue
-              hover:gap-2.5 transition-all duration-200">
-      View Blueprint <span aria-hidden="true">→</span>
+       class="inline-flex items-center gap-1.5 text-sm font-semibold text-accent-blue
+              hover:gap-3 transition-all duration-200">
+      View Blueprint
+      <i data-lucide="arrow-right" class="w-4 h-4" aria-hidden="true"></i>
     </a>
   </article>`,
   )
@@ -72,6 +75,11 @@ principlesGrid.innerHTML = principles
   </div>`,
   )
   .join('')
+
+// ─── INIT LUCIDE ICONS (run after all HTML is rendered) ───────────────────────
+createIcons({
+  icons: { Bot, Compass, Brain, Globe, ShieldCheck, Mail, Linkedin, Github, ArrowRight },
+})
 
 // ─── SCROLL REVEAL ────────────────────────────────────────────────────────────
 const observer = new IntersectionObserver(

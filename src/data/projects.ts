@@ -1,5 +1,5 @@
 export interface Project {
-  icon: string
+  icon: string   // lucide icon name
   title: string
   description: string
   tags: string[]
@@ -8,7 +8,7 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    icon: '🤖',
+    icon: 'bot',
     title: 'Autonomous Multi-Agent Orchestration',
     description:
       'Blueprint for decomposing complex tasks via a central supervisor and specialized worker nodes. Covers delegation protocols, result synthesis, and failure recovery.',
@@ -16,7 +16,7 @@ export const projects: Project[] = [
     url: 'https://github.com/mustafabasar7/Portfolio/blob/main/Advanced_Agentic_Systems/Autonomous_Multi_Agent_Orchestration.ipynb',
   },
   {
-    icon: '🧭',
+    icon: 'compass',
     title: 'Context-Aware Dynamic Tool Routing',
     description:
       'Research-driven implementation of real-time tool selection based on latent context and user intent. Optimizes precision with minimal token overhead.',
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     url: 'https://github.com/mustafabasar7/Portfolio/blob/main/Advanced_Agentic_Systems/Context_Aware_Dynamic_Tool_Routing.ipynb',
   },
   {
-    icon: '🧠',
+    icon: 'brain',
     title: 'Persistent Memory & Agentic State',
     description:
       'Durable state persistence across long-horizon task execution. Implements checkpointing, memory retrieval, and cross-session continuity patterns.',
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     url: 'https://github.com/mustafabasar7/Portfolio/blob/main/Advanced_Agentic_Systems/Persistent_Memory_Agentic_State.ipynb',
   },
   {
-    icon: '🌐',
+    icon: 'globe',
     title: 'Hierarchical Swarm Coordination',
     description:
       'Comparative study of coordination models for large-scale decentralized agent ecosystems. Benchmarks emergent behavior, communication overhead, and convergence.',
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     url: 'https://github.com/mustafabasar7/Portfolio/blob/main/Advanced_Agentic_Systems/Hierarchical_Swarm_Coordination.ipynb',
   },
   {
-    icon: '🛡️',
+    icon: 'shield-check',
     title: 'Adaptive HITL Safety Protocols',
     description:
       'Framework for flexible human-in-the-loop agency within complex automated systems. Defines escalation triggers, approval gates, and full audit trails.',
