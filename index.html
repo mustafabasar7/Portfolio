@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustafa Başar — AI Solutions Engineer</title>
+    <meta
+      name="description"
+      content="Production-grade autonomous systems with LangGraph. LangGraph blueprints, multi-agent orchestration, and token-efficient reasoning pipelines."
+    />
+    <meta property="og:title" content="Mustafa Başar — AI Solutions Engineer" />
+    <meta
+      property="og:description"
+      content="Agentic AI portfolio: state-aware orchestration, persistent memory, HITL safety, and swarm coordination."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+
+  <body class="font-sans antialiased">
+
+    <!-- ═══════════════════════════════════════════════════════
+         NAVBAR
+    ════════════════════════════════════════════════════════ -->
+    <header>
+      <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <span class="text-base font-bold tracking-tight text-gray-900 dark:text-gray-100">
+          Mustafa <span class="text-accent-blue">Başar</span>
+        </span>
+
+        <div class="flex items-center gap-6">
+          <ul class="hidden md:flex gap-6 list-none" role="list">
+            <li><a href="#projects"   class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-accent-blue transition-colors">Projects</a></li>
+            <li><a href="#principles" class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-accent-blue transition-colors">Principles</a></li>
+            <li><a href="#contact"    class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-accent-blue transition-colors">Contact</a></li>
+          </ul>
+
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle dark/light theme"
+            title="Toggle theme"
+          >
+            <!-- Moon — shown in dark mode -->
+            <svg class="dark:block hidden w-4 h-4 fill-gray-400" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/>
+            </svg>
+            <!-- Sun — shown in light mode -->
+            <svg class="dark:hidden block w-4 h-4 stroke-gray-500" viewBox="0 0 24 24" fill="none"
+                 stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1"  x2="12" y2="3"/>
+              <line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22"   x2="5.64"  y2="5.64"/>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1"  y1="12" x2="3"  y2="12"/>
+              <line x1="21" y1="12" x2="23" y2="12"/>
+              <line x1="4.22" y1="19.78" x2="5.64"  y2="18.36"/>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- ═══════════════════════════════════════════════════════
+           HERO
+      ════════════════════════════════════════════════════════ -->
+      <section
+        class="relative min-h-screen flex items-center pt-24 pb-20 px-6 overflow-hidden
+               bg-light-surface dark:bg-dark-bg"
+        aria-labelledby="hero-heading"
+      >
+        <!-- Glow orbs -->
+        <div class="glow-orb w-[500px] h-[500px] bg-accent-blue/10 -top-40 -right-20 dark:bg-accent-blue/8"></div>
+        <div class="glow-orb w-[350px] h-[350px] bg-accent-green/5 -bottom-20 -left-10"></div>
+
+        <div class="relative z-10 max-w-3xl mx-auto w-full">
+          <!-- Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 mb-6 rounded-full
+                      border border-accent-blue/40 bg-accent-blue/8 dark:bg-accent-blue/10
+                      text-accent-blue text-xs font-bold uppercase tracking-widest
+                      animate-fade-up">
+            <span class="animate-pulse-dot">●</span>
+            AI Solutions Engineer
+          </div>
+
+          <h1
+            id="hero-heading"
+            class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight
+                   text-gray-900 dark:text-gray-100 mb-5 animate-fade-up [animation-delay:80ms]"
+          >
+            Designing the<br />
+            <span class="bg-gradient-to-r from-accent-blue to-accent-green
+                         bg-clip-text text-transparent">Brain Layer</span>
+            of AI
+          </h1>
+
+          <p class="text-lg text-gray-500 dark:text-gray-400 max-w-xl mb-8 leading-relaxed
+                    animate-fade-up [animation-delay:150ms]">
+            Production-grade autonomous systems with <strong class="text-gray-700 dark:text-gray-300">LangGraph</strong>.
+            Specializing in state-aware multi-agent orchestration, memory architecture,
+            and token-efficient reasoning pipelines.
+          </p>
+
+          <div class="flex flex-wrap gap-3 animate-fade-up [animation-delay:220ms]">
+            <a href="#projects" class="btn-primary">View Case Studies</a>
+            <a href="https://github.com/mustafabasar7/Portfolio"
+               target="_blank" rel="noopener" class="btn-outline">GitHub Repo</a>
+          </div>
+
+          <!-- Stats -->
+          <div class="flex flex-wrap gap-8 mt-12 pt-8
+                      border-t border-light-border dark:border-dark-border
+                      animate-fade-up [animation-delay:300ms]">
+            <div>
+              <p class="text-2xl font-bold text-accent-blue">5+</p>
+              <p class="text-xs text-gray-400 mt-0.5 font-medium">Agentic Blueprints</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold text-accent-blue">LangGraph</p>
+              <p class="text-xs text-gray-400 mt-0.5 font-medium">Primary Framework</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold text-accent-blue">HITL</p>
+              <p class="text-xs text-gray-400 mt-0.5 font-medium">Safety-First Design</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold text-accent-blue">Enterprise</p>
+              <p class="text-xs text-gray-400 mt-0.5 font-medium">Scale Ready</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════════
+           PROJECTS
+      ════════════════════════════════════════════════════════ -->
+      <section
+        id="projects"
+        class="py-24 px-6 bg-light-bg dark:bg-dark-surface"
+        aria-labelledby="projects-heading"
+      >
+        <div class="max-w-5xl mx-auto">
+          <div class="mb-10 reveal">
+            <p class="text-xs font-bold uppercase tracking-widest text-accent-blue mb-2">
+              Case Studies &amp; Blueprints
+            </p>
+            <h2 id="projects-heading"
+                class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+              Technical Architecture Deep-Dives
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400 max-w-lg text-sm leading-relaxed">
+              Each blueprint is a complete engineering reference for production agentic systems —
+              from state machine topology to token governance.
+            </p>
+          </div>
+
+          <!-- Rendered by main.ts from data/projects.ts -->
+          <div id="projects-grid"
+               class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 stagger">
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════════
+           PRINCIPLES
+      ════════════════════════════════════════════════════════ -->
+      <section
+        id="principles"
+        class="py-24 px-6 bg-light-surface dark:bg-dark-bg"
+        aria-labelledby="principles-heading"
+      >
+        <div class="max-w-5xl mx-auto">
+          <div class="mb-10 reveal">
+            <p class="text-xs font-bold uppercase tracking-widest text-accent-blue mb-2">
+              Engineering Philosophy
+            </p>
+            <h2 id="principles-heading"
+                class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+              Core Principles
+            </h2>
+          </div>
+
+          <!-- Rendered by main.ts -->
+          <div id="principles-grid"
+               class="grid grid-cols-1 md:grid-cols-3 gap-5 stagger">
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════════════════════════════
+           CONTACT
+      ════════════════════════════════════════════════════════ -->
+      <section
+        id="contact"
+        class="py-24 px-6 bg-light-bg dark:bg-dark-surface"
+        aria-labelledby="contact-heading"
+      >
+        <div class="max-w-lg mx-auto text-center reveal">
+          <div class="rounded-2xl p-10 border border-light-border dark:border-dark-border
+                      bg-light-card dark:bg-dark-card relative overflow-hidden">
+            <!-- glow -->
+            <div class="glow-orb w-48 h-48 bg-accent-blue/12 -top-16 left-1/2 -translate-x-1/2"></div>
+
+            <h2 id="contact-heading"
+                class="relative text-2xl font-bold mb-2 text-gray-900 dark:text-gray-100">
+              Let's Build Together
+            </h2>
+            <p class="relative text-sm text-gray-500 dark:text-gray-400 mb-8">
+              Open to agentic AI roles, consulting, and high-signal collaborations.
+            </p>
+            <div class="relative flex flex-wrap justify-center gap-3">
+              <a href="mailto:mustafabasar7@gmail.com" class="btn-primary">✉ Email Me</a>
+              <a href="https://www.linkedin.com/in/mustafabasar"
+                 target="_blank" rel="noopener" class="btn-outline">LinkedIn</a>
+              <a href="https://github.com/mustafabasar7"
+                 target="_blank" rel="noopener" class="btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ═══════════════════════════════════════════════════════
+         FOOTER
+    ════════════════════════════════════════════════════════ -->
+    <footer class="py-6 px-6 text-center text-xs text-gray-400 dark:text-gray-600
+                   border-t border-light-border dark:border-dark-border
+                   bg-light-bg dark:bg-dark-bg">
+      © 2026 Mustafa Başar ·
+      <a href="https://github.com/mustafabasar7/Portfolio"
+         target="_blank" rel="noopener"
+         class="hover:text-accent-blue transition-colors">Portfolio Repo</a>
+      · Built with Vite + Tailwind CSS
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
