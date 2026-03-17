@@ -1,5 +1,5 @@
 import './style.css'
-import { createIcons, Bot, Compass, Brain, Globe, ShieldCheck, Mail, Linkedin, Github, ArrowRight } from 'lucide'
+import { icon } from './icons'
 import { projects, principles } from './data/projects'
 
 // ─── THEME ────────────────────────────────────────────────────────────────────
@@ -43,8 +43,8 @@ grid.innerHTML = projects
     (p) => `
   <article class="project-card">
     <div class="flex items-center justify-center w-11 h-11 rounded-xl mb-4
-                bg-accent-blue/10 border border-light-border dark:border-dark-border">
-      <i data-lucide="${p.icon}" class="w-5 h-5 text-accent-blue" aria-hidden="true"></i>
+                bg-accent-blue/10 border border-light-border dark:border-dark-border text-accent-blue">
+      ${icon(p.icon)}
     </div>
     <h3 class="text-base font-semibold mb-2 leading-snug text-gray-900 dark:text-gray-100">${p.title}</h3>
     <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4">${p.description}</p>
@@ -55,7 +55,7 @@ grid.innerHTML = projects
        class="inline-flex items-center gap-1.5 text-sm font-semibold text-accent-blue
               hover:gap-3 transition-all duration-200">
       View Blueprint
-      <i data-lucide="arrow-right" class="w-4 h-4" aria-hidden="true"></i>
+      ${icon('arrow-right', 'w-4 h-4')}
     </a>
   </article>`,
   )
@@ -76,10 +76,6 @@ principlesGrid.innerHTML = principles
   )
   .join('')
 
-// ─── INIT LUCIDE ICONS (run after all HTML is rendered) ───────────────────────
-createIcons({
-  icons: { Bot, Compass, Brain, Globe, ShieldCheck, Mail, Linkedin, Github, ArrowRight },
-})
 
 // ─── SCROLL REVEAL ────────────────────────────────────────────────────────────
 const observer = new IntersectionObserver(
